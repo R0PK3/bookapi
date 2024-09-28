@@ -20,11 +20,6 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public Book addBook(Book book) {
-        return bookRepository.save(book);
-    }
-
-    @Override
     public Book updateBookRating(int id, int rating) {
         Book book = bookRepository.findById(id).orElseThrow(() -> new RuntimeException("Book not found"));
         book.setRating(rating);

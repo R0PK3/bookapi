@@ -5,7 +5,6 @@ import java.util.List;
 
 public interface BookService {
     List<Book> getAllBooks();
-    Book addBook(Book book);
     Book updateBookRating(int id, int rating);
     List<Book> filterBooks(String title, String author, Integer publishYear, Integer rating);
 }
