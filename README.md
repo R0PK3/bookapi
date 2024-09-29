@@ -1,5 +1,5 @@
 # Sourcery Academy for Full-Stack | Bonus task 2024
-Before trying to start the application, make sure that you have Installed **Java 22** (or later), **Postman**, **npm**, **maven** and set them as environment variables.
+Before trying to start the application, make sure that you have Installed **Java JDK 23**, **Postman**, **npm**, **maven** and set them as environment variables.
 # How to launch the application?
 1) Clone the repository `git clone https://github.com/R0PK3/bookapi.git` and change directory `cd bookapi`.
 2) Build the Project with Maven `mvn clean install`.
